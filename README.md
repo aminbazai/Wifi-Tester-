@@ -1,95 +1,66 @@
-<div align="center">
-# 🔐 WiFi Tester
-[![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![Platform](https://img.shields.io/badge/Platform-Windows-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)](https://www.microsoft.com/windows/)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/aminbazai/Wifi-Tester?style=for-the-badge)](https://github.com/aminbazai/Wifi-Tester/stargazers)
+# WiFi Tester
+[![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
+[![Platform](https://img.shields.io/badge/Platform-Windows-orange.svg)](https://www.microsoft.com/windows/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+A Python-based WiFi security testing tool that demonstrates dictionary-based password attacks for educational purposes. Helps users understand WiFi security vulnerabilities and the importance of strong passwords. For authorized testing only.
 ---
-### A Python-based WiFi security testing tool for educational purposes
-</div>
+## Author
+**Hasnain Dark Net**
+Cybersecurity learner and security awareness content creator.
 ---
-## 📋 Description
-A Python-based WiFi security testing tool that demonstrates dictionary-based password attacks for educational purposes. Helps users understand WiFi security vulnerabilities and the importance of strong passwords. **For authorized testing only.**
+## Features
+- Demonstrates dictionary-based password attacks for educational purposes
+- Uses wordlists to test WiFi password strength
+- Simple and easy-to-use command-line interface
+- Built-in safety limits to prevent abuse
+- Windows netsh-based implementation
+- Educational cybersecurity practice tool
 ---
-## ⚠️ Disclaimer
-> **This tool is for EDUCATIONAL PURPOSES only!**
-> 
-> - Use ONLY on networks you OWN
-> - Use ONLY with explicit permission
-> - The author is NOT responsible for any misuse
-> - Unauthorized access is illegal and punishable by law
+## Requirements
+Before running the script, make sure you have the following:
+- Python 3.x
+- Windows Operating System
+- Active WiFi Adapter
+- Wordlist file (e.g., rockyou.txt)
 ---
-## 🛠️ Features
-| Feature | Description |
-|---------|-------------|
-| 🔓 Dictionary Attack | Demonstrates how weak passwords can be cracked |
-| 📖 Educational | Learn about WiFi security vulnerabilities |
-| 💻 CLI Based | Simple command-line interface |
-| 🛡️ Safety First | Built-in attempt limits |
-| 🪟 Windows Only | Uses Windows netsh command |
----
-## 📦 Requirements
-- **Python 3.x** - [Download](https://www.python.org/downloads/)
-- **Windows OS** - Windows 10/11
-- **WiFi Adapter** - Internal or external
-- **Wordlist File** - e.g., `rockyou.txt`
----
-## 🚀 Installation
-### 1. Clone the repository
+## Installation
+1. Clone this repository:
 ```bash
-git clone https://github.com/Hasnain-Dark-Net/Wifi-Tester.git
+git clone https://github.com/yourusername/wifi-tester.git
 ```
-### 2. Navigate to the project folder
+2. Navigate to the project directory:
 ```bash
-cd Wifi-Tester
+cd wifi-tester
 ```
-### 3. No additional dependencies needed!
+3. No additional dependencies required (uses built-in Python modules)
 ---
-## 📖 Usage
-### Run the tool
+## Usage
+1. Run the script:
 ```bash
 python wifi.py
 ```
-### Follow the prompts
-```
-1. Type "I HAVE PERMISSION" to confirm
-2. Enter the target WiFi SSID (name)
-3. Enter the wordlist file path
-4. Set delay per attempt (recommended: 6-8 seconds)
-```
-The tool will attempt passwords from your wordlist until it finds a match or reaches the limit.
+2. Follow the on-screen instructions:
+   - Enter the target WiFi SSID (network name)
+   - Provide the path to your wordlist file
+   - Set delay per attempt (recommended: 6-8 seconds)
+3. The tool will attempt to connect using passwords from your wordlist
 ---
-## 📂 Project Structure
-```
-Wifi-Tester/
-├── wifi.py           # Main Python script
-├── passwords.txt     # Sample password list
-├── README.md         # This file
-└── LICENSE           # MIT License
-```
+## Disclaimer
+⚠️ **IMPORTANT**
+This tool is created for **educational and cybersecurity learning purposes only**.
+- Use ONLY on networks you OWN
+- Use ONLY with explicit permission from the network owner
+- The author is NOT responsible for any misuse of this tool
+- Unauthorized access to computer systems is illegal and punishable by law
+**By using this tool, you agree to use it responsibly and ethically.**
 ---
-## 🔧 Configuration
-You can modify these settings in `wifi.py`:
-| Variable | Default | Description |
-|----------|---------|-------------|
-| `MAX_ATTEMPTS` | 50 | Maximum password attempts |
+## License
+This project is licensed under the MIT License.
 ---
-## 📝 Security Best Practices
-This tool helps you understand:
-- ✅ Why weak passwords are dangerous
-- ✅ How dictionary attacks work
-- ✅ Importance of strong, unique passwords
-- ✅ Network security fundamentals
----
-## 👤 Author
-**Muhummad Amin Khan**
-- 🖥️ Cybersecurity Learner
-- 📢 Security Awareness Content Creator
----
-## 📜 License
-This project is licensed under the **MIT License**.
----
-<div align="center">
-**⭐ Don't forget to star this repository if you found it useful!**
-**Made with ❤️ for educational purposes**
-</div>
+## Security Note
+This tool is designed to help users understand:
+- The risks of weak WiFi passwords
+- How dictionary attacks work
+- The importance of using strong, unique passwords
+- Network security best practices
+Stay safe and secure! 🔐
