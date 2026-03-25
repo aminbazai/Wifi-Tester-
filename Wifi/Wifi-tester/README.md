@@ -7,7 +7,7 @@ This project is created for **educational purposes** to help students understand
 ---
 
 ## Author
-**Hasnain Dark Net**
+**Muhummad Amin Khan **
 <img width="1001" height="365" alt="Capture" src="https://github.com/user-attachments/assets/b4c1b50a-1811-4933-8d2f-9c931318aeb5" />
 
 Cybersecurity learner and content creator focused on ethical hacking and security awareness.
